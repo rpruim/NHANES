@@ -3,7 +3,7 @@
 \name{NHANES}
 \alias{NHANES}
 \title{Body Shape and related measurements from NHANES 1999-2004}
-\format{A data frame with 31126 observations on the following 53 variables.
+\format{A data frame with 31126 observations on the following 32 variables.
 \itemize{
 \item{\code{seqn} matching code for NHANES mortality data}
 \item{\code{sex} \code{"male"} or \code{"female"}}
@@ -38,30 +38,9 @@ Other Hispanic, Non-Hispanic White, Non-Hispanic Black, or Other/Multi
 \item{\code{bps} systolic blood pressure, mmHg}
 \item{\code{bpd} diastolic blood pressure, mmHg}
 \item{\code{income} ratio of family income to poverty threshold. 5 is ratio greater than or equal to 5}
-\item{\code{zheight} z-score stratified by age and sex}
-\item{\code{zweight} z-score stratified by age and sex}
-\item{\code{zwaist} z-score stratified by age and sex}
-\item{\code{zwci} z-score stratified by age and sex}
-\item{\code{zbmi} z-score stratified by age and sex}
-\item{\code{zptfat} z-score stratified by age and sex}
-\item{\code{ztfat} z-score stratified by age and sex}
-\item{\code{zlfat} z-score stratified by age and sex}
-\item{\code{zllean} z-score stratified by age and sex}
-\item{\code{zlbmi} z-score stratified by age and sex}
-\item{\code{zfbmi} z-score stratified by age and sex}
-\item{\code{zbbmi} z-score stratified by age and sex}
-\item{\code{zpf} z-score stratified by age and sex}
-\item{\code{zbmd} z-score stratified by age and sex}
-\item{\code{zfmhm_other} z-score stratified by age and sex}
-\item{\code{zhdl} z-score stratified by age and sex}
-\item{\code{zchol} z-score stratified by age and sex}
-\item{\code{zbps} z-score stratified by age and sex}
-\item{\code{zbpd} z-score stratified by age and sex}
-\item{\code{zincome} z-score stratified by age and sex}
 \item{\code{pop_weight} population weight, for adding up over the US population }
 \item{\code{psu} primary sampling unit}
 \item{\code{stratum} sampling stratum}
-\item{\code{zwh} z-score of waist/height ratio}
 }}
 \source{
 These data were assempled from NHANES 1999-2004 sources by Dr. Nir
